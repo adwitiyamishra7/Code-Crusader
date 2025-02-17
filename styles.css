@@ -5,8 +5,8 @@ body {
     align-items: center;
     height: 100vh;
     justify-content: center;
-    background: url('ancient-texture.jpg') no-repeat center center fixed, #3b2f2f;
-    background-blend-mode: multiply; /* Darkens the background for depth */
+    background: url('./assets/images/ancient-texture.jpg') no-repeat center center fixed, #3b2f2f;
+    background-blend-mode: multiply;
     background-size: cover;
     color: white;
 }
@@ -92,12 +92,12 @@ h1 {
 /* Left and Right Arrow Overlays */
 .left-button {
     left: 40px;
-    background-image: url('left\ arrow.jpeg'); /* Replace with actual arrow image */
+    background-image: url('./assets/images/left-arrow.jpeg');
 }
 
 .right-button {
     right: 40px;
-    background-image: url('right\ arrow.jpeg');
+    background-image: url('./assets/images/right-arrow.jpeg');
 }
 
 /* Responsive Styles */

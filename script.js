@@ -5,7 +5,7 @@ embersContainer.classList.add("embers-container");
 document.body.appendChild(embersContainer);
 
 // Fire sound effect
-const fireSound = new Audio("fire.mp3");
+const fireSound = new Audio("./assets/audio/fire.mp3");
 fireSound.volume = 0.6;
 
 const stories = [
