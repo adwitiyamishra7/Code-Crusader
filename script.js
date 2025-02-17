@@ -8,14 +8,36 @@ document.body.appendChild(embersContainer);
 const fireSound = new Audio("./assets/audio/fire.mp3");
 fireSound.volume = 0.6;
 
+
 const stories = [
-    { text: "ONCE, IN A FARAWAY LAND CALLED GREECE, a small yet mighty force stood against an empire.", image: "image 1.png" },
-    { text: "OMINOUS NEWS ARRIVED: A vast Persian army, led by the ruthless King Xerxes, was marching toward Greece.", image: "image 2.png" },
-    { text: "THE KING GETS THE NEWS OF THE INVASION. Knowing the odds, Leonidas still chooses to fight.", image: "image 3.jpg" },
-    { text: "KING XERXES COMES WITH HIS ARMY, offering surrender. The Spartans refuse, choosing glory.", image: "image 4.png" },
-    { text: "300 SPARTANS MARCH TO WAR, their shields gleaming in the sun, ready for the battle of their lives.", image: "Untitled design.jpg" },
-    { text: "THE BATTLE BEGINS. The warriors stand firm, holding the pass against impossible odds.", image: "image 6.png" },
-    { text: "ALL SPARTANS SACRIFICED THEIR LIVES, enough to bleed Xerxes, enough to win the war.", image: "image 7.png" }
+  {
+    text: "ONCE, IN A FARAWAY LAND CALLED GREECE, a small yet mighty force stood against an empire.",
+    image: "./assets/images/image1.png",
+  },
+  {
+    text: "OMINOUS NEWS ARRIVED: A vast Persian army, led by the ruthless King Xerxes, was marching toward Greece.",
+    image: "./assets/images/image2.png",
+  },
+  {
+    text: "THE KING GETS THE NEWS OF THE INVASION. Knowing the odds, Leonidas still chooses to fight.",
+    image: "./assets/images/image3.jpg",
+  },
+  {
+    text: "KING XERXES COMES WITH HIS ARMY, offering surrender. The Spartans refuse, choosing glory.",
+    image: "./assets/images/image4.png",
+  },
+  {
+    text: "300 SPARTANS MARCH TO WAR, their shields gleaming in the sun, ready for the battle of their lives.",
+    image: "./assets/images/untitleddesign.jpg",
+  },
+  {
+    text: "THE BATTLE BEGINS. The warriors stand firm, holding the pass against impossible odds.",
+    image: "./assets/images/image6.png",
+  },
+  {
+    text: "ALL SPARTANS SACRIFICED THEIR LIVES, enough to bleed Xerxes, enough to win the war.",
+    image: "./assets/images/image7.png",
+  },
 ];
 
 let currentIndex = 0;

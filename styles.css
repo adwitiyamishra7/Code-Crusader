@@ -92,12 +92,12 @@ h1 {
 /* Left and Right Arrow Overlays */
 .left-button {
     left: 40px;
-    background-image: url('./assets/images/left-arrow.jpeg');
+    background-image: url('./assets/images/leftarrow.jpeg');
 }
 
 .right-button {
     right: 40px;
-    background-image: url('./assets/images/right-arrow.jpeg');
+    background-image: url('./assets/images/rightarrow.jpeg');
 }
 
 /* Responsive Styles */
